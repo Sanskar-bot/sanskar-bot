@@ -10,13 +10,13 @@
 ║                                                              ║
 ║   S A N S K A R   P H O U G A T                             ║
 ║   ─────────────────────────────                             ║
-║   Security Engineer  ·  Cryptography  ·  Backend Systems    ║
+║   Backend Engineer  ·  Secure Systems  ·  Java & Python     ║
 ║   B.Tech ECE @ JIIT Noida  ·  Class of 2027                 ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Breaking+encryption+so+you+don't+have+to.;RSA+%7C+AES-GCM+%7C+MITM+%7C+Threat+Modelling;Building+systems+that+assume+breach.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=80&lines=Backend+Engineer+who+builds+things+that+don't+break.;Java+%7C+Spring+Boot+%7C+Python+%7C+Flask+%7C+PostgreSQL;Systems+designed+with+security+from+the+ground+up.)](https://git.io/typing-svg)
 
 <br/>
 
@@ -33,19 +33,19 @@
 
 ```python
 sanskar = {
-    "role"        : "Security-focused Backend Engineer",
+    "role"        : "Backend Engineer — building reliable, well-tested systems",
     "education"   : "B.Tech ECE @ JIIT Noida (2023 – 2027)",
     "location"    : "Noida, Uttar Pradesh, India",
-    "focus"       : ["Applied Cryptography", "Secure Systems", "Backend Engineering"],
-    "building"    : "Systems that assume breach — encrypt everything, trust nothing.",
-    "teaching"    : "Cryptography Workshop Instructor @ AI Tronics Society (40+ students)",
-    "open_to"     : "Cybersecurity / Security-focused SWE Internships",
+    "stack"       : ["Java", "Spring Boot", "Python", "Flask", "PostgreSQL", "REST APIs"],
+    "strengths"   : ["System Design", "API Architecture", "Testing & CI/CD", "OOP"],
+    "extra_edge"  : "Security-conscious engineering — I build systems that handle adversarial conditions",
+    "open_to"     : "SWE / Backend / Full-Stack Internships (2025–2026)",
 }
 ```
 
-> I build systems where security isn't bolted on — it's the architecture.
-> RSA key swaps, AES-GCM session interception, zero plaintext at rest.
-> If it can be broken, I want to break it first.
+> I build backend systems with clean architecture, strong test coverage, and production-grade reliability.
+> My background in applied security means I think about what happens when things go wrong —
+> not just when they go right.
 
 ---
 
@@ -55,73 +55,82 @@ sanskar = {
 <tr>
 <td width="50%" valign="top">
 
-### 🔐 E2E Encryption Attack Lab
-**`Python · mitmproxy · Burp Suite · Wireshark · Flask`**
+### ⚙️ TaskFlow — Task Management REST API
+**`Java · Spring Boot · PostgreSQL · PL/SQL · JUnit 5 · GitHub Actions`**
 
-A 3-act live demonstration of why encryption alone isn't enough.
+Production-grade CRUD REST API with JWT-based authentication and layered Repository / Service / Controller architecture.
 
-| Act | What MITM sees |
-|-----|---------------|
-| Plaintext chat | Every message |
-| RSA + AES-GCM (unverified) | Full plaintext via key swap |
-| + Fingerprint verification | **Nothing — session aborts** |
+```
+Test Coverage : 80%+ across 15+ test suites
+CI/CD         : GitHub Actions (build → test → deploy)
+Database      : PostgreSQL + stored procedures (PL/SQL)
+Optimization  : Query tuning via execution plans + indexing
+Testing Stack : JUnit 5 + Mockito
+```
 
-Built for CyberPeace Foundation assignment. Features a live attacker dashboard (Flask API + real-time feed), `threading.Event`-based session pairing, and mitmproxy professional tool integration.
+Clean OOP design, separation of concerns, and a fully automated pipeline — built to the standard of a working engineering team.
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/Sanskar-bot/E2E-Encryption-Attack-Lab)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/Sanskar-bot)
 
 </td>
 <td width="50%" valign="top">
 
-### 🏥 SecureHealth — Decentralized Medical Records
-**`Flask · AES-256-GCM · RSA-2048 · Windows DPAPI · GitHub Actions`**
+### 🎯 PhishGuard — Real-Time Threat Detection API
+**`Python · ML · PostgreSQL · REST API · CI/CD`**
 
-Zero-trust medical data platform. Client-side encryption enforced — server never sees plaintext. Hybrid RSA+AES key wrapping with OS-backed private key storage (Windows DPAPI) to eliminate key exfiltration vectors.
+Async ML inference pipeline for real-time phishing URL detection — built with the same standards as a production microservice.
 
-- 3 microservices with custom middleware
-- Time-bound access tokens
-- 85%+ integration test coverage
-- Zero plaintext exposure at rest
+```
+Accuracy      : 90% on 500+ samples
+Latency       : < 80ms p99
+Uptime        : 99.9% under load testing
+Architecture  : Stateless — horizontally scalable
+Database      : Partitioned PostgreSQL audit tables
+```
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/Sanskar-bot/medical-data-decentralisation)
+Demonstrates async backend design, load-tested reliability, and scalable data architecture — not just a model wrapper.
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/Sanskar-bot/PhishingCheck4U)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🎯 PhishGuard — Real-Time URL Threat Detection
-**`Python · ML · PostgreSQL · REST API · CI/CD`**
+### 🏥 SecureHealth — Distributed Medical Records Platform
+**`Flask · REST APIs · PostgreSQL · AES-256-GCM · RSA-2048 · GitHub Actions`**
 
-Real-time phishing detection engine with async ML inference pipeline.
+A distributed backend system across 3 microservices with custom middleware, enforced access control, and automated integration testing.
 
 ```
-Accuracy    : 90% on 500+ samples
-Latency     : < 80ms p99
-Uptime      : 99.9% under load testing
-OSINT       : 15+ email header parameters
+Architecture  : 3 microservices + custom middleware
+Test Coverage : 85%+ integration tests
+Access Control: Time-bound tokens, role-based access
+Deployment    : CI/CD via GitHub Actions
+Data Safety   : Client-side encryption enforced end-to-end
 ```
 
-Partitioned PostgreSQL audit tables, stateless architecture for horizontal scaling, automated OSINT-based domain/IP reputation checks.
+Built to demonstrate real microservice thinking — service boundaries, middleware layers, and infrastructure as code.
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/Sanskar-bot/PhishingCheck4U)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/Sanskar-bot/medical-data-decentralisation)
 
 </td>
 <td width="50%" valign="top">
 
-### 📹 VaultStream — Encrypted Media Storage
-**`Python · AES-256 · RSA · Docker · Cloud`**
+### 📹 VaultStream — Encrypted Media Storage & Retrieval
+**`Python · Flask · Docker · Cloud Storage · REST API`**
 
-AES-256/RSA hybrid encryption platform for media files up to 500MB.
+High-throughput file storage and retrieval system with a chunked streaming pipeline, Docker containerisation, and cloud-backed storage.
 
 ```
-Latency     : sub-100ms p99
-Coverage    : 85%+ unit + integration tests
-Exposure    : zero plaintext at rest
-Access      : key-scoped per session
+File Support  : Up to 500MB per upload
+Latency       : sub-100ms p99
+Test Coverage : 85%+ unit + integration tests
+Deployment    : Dockerized, cloud-backed
+Access Model  : Key-scoped per session
 ```
 
-Chunked streaming pipeline with cloud-backed storage and Docker-containerized deployment.
+Focus was on chunked I/O performance, reliable error handling, and clean API design — security was a constraint, not the product.
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/Sanskar-bot/secure-media-encryption)
 
@@ -130,33 +139,34 @@ Chunked streaming pipeline with cloud-backed storage and Docker-containerized de
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ TaskFlow — Task Management REST API
-**`Java · Spring Boot · PostgreSQL · PL/SQL · JUnit 5 · GitHub Actions`**
+### 🔬 E2E Encryption Attack Lab *(Research / Teaching)*
+**`Python · mitmproxy · Flask · Wireshark · Burp Suite`**
 
-Production-grade CRUD API with JWT auth, layered OOP architecture, and stored procedures in PL/SQL.
+A 3-act educational demonstration of MITM attacks on E2E encrypted communication — built as a research and teaching tool for a CyberPeace Foundation assignment.
 
-- SQL query optimization via execution plans + index tuning
-- CI/CD pipeline with GitHub Actions
-- 80%+ code coverage across 15+ test suites (JUnit 5 + Mockito)
+Features a live attacker dashboard (Flask API + real-time feed) and mitmproxy integration. The core engineering challenges were multi-threaded TCP proxy design, cross-thread state synchronisation via `threading.Event`, and Flask embedded as a daemon background service.
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/Sanskar-bot)
+*Why it's relevant for SDE:* Threading bugs, race conditions, and concurrent state are core backend problems — this project forced me to solve all three under real constraints.
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/Sanskar-bot/E2E-Encryption-Attack-Lab)
 
 </td>
 <td width="50%" valign="top">
 
-### 📓 Daily Learning Log
-**`Markdown · Consistency · Growth`**
+### 📓 Daily Learning Log *(Public Engineering Journal)*
+**`Consistency · Depth · Growth`**
 
-A public daily log of everything I learn — tracked every day since April 2026.
-
-Each entry documents: what I learned, what I built, challenges solved, open questions, and resources used. Not a highlight reel — a honest engineering journal.
+A structured daily log of what I learn — started April 2026, updated every day. Each entry covers: what I learned, what I built or practiced, challenges solved with root cause analysis, open questions, and resources.
 
 ```
-Entries     : 17+ days and counting
-Topics      : Cryptography, Backend, Security, 
-              Mobile Comms, Salesforce, Interviews
-Format      : Structured markdown with stats tables
+Topics so far : Spring Boot, PostgreSQL, Cryptography,
+                System Design, Mobile Networks, CI/CD,
+                Salesforce Platform, Security Engineering
+Format        : Structured markdown — challenges + solutions
+Streak        : April 2026 → present (no gaps)
 ```
+
+Not a highlight reel. A real engineering journal.
 
 [![Repo](https://img.shields.io/badge/View_Log-181717?style=flat-square&logo=github)](https://github.com/Sanskar-bot/Daily-Learnings)
 
@@ -170,18 +180,17 @@ Format      : Structured markdown with stats tables
 
 ```json
 {
-  "languages"     : ["Python", "Java", "C++", "SQL", "JavaScript"],
-  "frameworks"    : ["Spring Boot", "Flask", "REST APIs", "React.js"],
-  "cryptography"  : ["AES-256-GCM", "RSA-2048", "SHA-256 Fingerprinting",
-                     "Hybrid Encryption", "Key Wrapping", "Secure Key Derivation"],
-  "security_tools": ["Burp Suite", "Wireshark", "Metasploit", "mitmproxy",
-                     "Nmap", "FFUF", "Splunk SIEM", "OWASP Top 10"],
-  "databases"     : ["PostgreSQL", "MySQL", "MongoDB", "Redis", "SQLite", "PL/SQL"],
-  "cloud_devops"  : ["AWS (EC2, S3)", "Docker", "GitHub Actions", "CI/CD", "Linux"],
-  "testing"       : ["JUnit 5", "Mockito", "Postman", "REST API Testing"],
-  "concepts"      : ["STRIDE Threat Modelling", "Zero-Trust Architecture",
-                     "MITM Attack Simulation", "CIA Triad", "TOFU",
-                     "System Design", "Microservices", "ACID", "OOP Design Patterns"]
+  "languages"        : ["Java", "Python", "C++", "SQL", "JavaScript"],
+  "backend"          : ["Spring Boot", "Flask", "REST APIs", "Microservices",
+                        "JWT Auth", "Middleware Design", "System Design"],
+  "databases"        : ["PostgreSQL", "MySQL", "MongoDB", "Redis", "SQLite",
+                        "PL/SQL", "ACID", "Indexing", "Query Optimization"],
+  "testing_devops"   : ["JUnit 5", "Mockito", "GitHub Actions", "CI/CD",
+                        "Docker", "AWS (EC2, S3)", "Postman", "Linux"],
+  "dsa_and_design"   : ["Trees", "Graphs", "Dynamic Programming", "Recursion",
+                        "OOP Design Patterns", "System Design", "Agile/Scrum"],
+  "security_tooling" : ["Burp Suite", "Wireshark", "mitmproxy", "OWASP Top 10",
+                        "AES-256-GCM", "RSA-2048", "Metasploit", "Splunk SIEM"]
 }
 ```
 
@@ -189,12 +198,12 @@ Format      : Structured markdown with stats tables
 
 ## `./certifications --list`
 
-| Certificate | Issuer | Focus |
-|-------------|--------|-------|
+| Certificate | Issuer | Relevance |
+|-------------|--------|-----------|
 | Google Cybersecurity Professional Certificate | Google | Networking, threat analysis, Linux, SOC workflows |
-| AWS Cloud Practitioner Essentials | Amazon Web Services | Compute, networking, storage, IAM |
-| TryHackMe — Junior Security Professional | TryHackMe | OWASP Top 10, web exploitation, CTF · **Top 15% globally** |
-| Salesforce Trailhead | Salesforce | Data modeling, platform basics, AI fundamentals |
+| AWS Cloud Practitioner Essentials | AWS | Compute, networking, storage, IAM |
+| TryHackMe — Junior Security Professional | TryHackMe | Web exploitation, OWASP Top 10 · **Top 15% globally** |
+| Salesforce Trailhead | Salesforce | Platform engineering, data modelling, AI basics |
 
 ---
 
@@ -204,10 +213,10 @@ Format      : Structured markdown with stats tables
 Position   : Technical Head — AI Tronics Society, JIIT Noida
 Duration   : August 2023 – Present
 
-Delivered  : Applied Cryptography Workshop (AES-256, RSA-2048, padding oracle attacks)
-Audience   : 40+ students
-Also ran   : Semester-wide workshops on Python, Git, DSA, and Cryptography for 100+ students
-Method     : Agile sprint model with per-cycle feedback loops
+Workshops  : Python, Git, DSA, Cryptography → 100+ students across semesters
+             Applied Cryptography deep-dive (AES-256, RSA, padding oracle) → 40+ students
+Delivery   : Agile sprint model with per-cycle feedback loops
+Mentoring  : Peers on OOP, backend engineering, SQL database design
 ```
 
 ---
@@ -226,18 +235,17 @@ Method     : Agile sprint model with per-cycle feedback loops
 
 ---
 
-## `./philosophy.sh`
+## `./what_i_bring.sh`
 
 ```bash
 #!/bin/bash
-# My approach to security engineering
 
-echo "Encrypt everything."
-echo "Verify keys out-of-band."
-echo "Assume the network is hostile."
-echo "Log everything, expose nothing."
-echo "A system that can be broken will be broken."
-echo "Break it first."
+echo "Clean architecture — Repository/Service/Controller, not spaghetti."
+echo "Test discipline — 80–85% coverage isn't accidental, it's a habit."
+echo "CI/CD from day one — GitHub Actions on every project I ship."
+echo "Security awareness — I know what breaks systems; I design around it."
+echo "Daily learning — public log, no gaps, April 2026 to present."
+echo "I don't just write code. I write code that survives production."
 ```
 
 ---
@@ -245,15 +253,15 @@ echo "Break it first."
 <div align="center">
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  Actively seeking: Cybersecurity / Security SWE Internship  │
-│  Available: Immediately · Location: Noida, India / Remote   │
-│  Contact: sanskarphougat2004@gmail.com                      │
-└─────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│  Open to: SWE / Backend / Full-Stack Internships             │
+│  Available: Immediately · Noida, India / Remote              │
+│  Contact: sanskarphougat2004@gmail.com                       │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=Sanskar-bot&style=flat-square&color=00d9ff&label=Profile+Views)
 
-*"The algorithm is public. Only the key is secret." — Kerckhoffs's Principle*
+*"First, solve the problem. Then, write the code."*
 
 </div>
