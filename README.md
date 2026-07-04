@@ -21,9 +21,9 @@
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sanskar--phougat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sanskar-phougat)
-[![GitHub](https://img.shields.io/badge/GitHub-Sanskar--bot-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sanskar-bot)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View_Site-00D9FF?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/Sanskar-bot/Sanskar_Phougat_Portfolio)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Top_15%25_Globally-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/Sanskar2003)
-[![Email](https://img.shields.io/badge/Email-sanskarphougat2004@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sanskarphougat2004@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sanskarphougat2004@gmail.com)
 
 </div>
 
@@ -91,56 +91,16 @@ sanskar = {
 
 ## Projects
 
+> Ordered by architectural complexity and relevance to backend engineering.
+
 <table>
-<tr>
-<td width="50%" valign="top">
-
-### TaskFlow — Task Management REST API
-`Java` `Spring Boot` `PostgreSQL` `PL/SQL` `JUnit 5` `GitHub Actions`
-
-Production-grade CRUD REST API with JWT-based authentication and layered Repository / Service / Controller architecture.
-
-```
-Test Coverage : 80%+ across 15+ test suites
-CI/CD         : GitHub Actions (build → test → deploy)
-Database      : PostgreSQL + stored procedures (PL/SQL)
-Optimization  : Query tuning via execution plans + indexing
-Testing Stack : JUnit 5 + Mockito
-```
-
-Clean OOP design, separation of concerns, and a fully automated pipeline — built to the standard of a working engineering team.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot)
-
-</td>
-<td width="50%" valign="top">
-
-### PhishGuard — Real-Time Threat Detection API
-`Python` `Machine Learning` `PostgreSQL` `REST API` `CI/CD`
-
-Async ML inference pipeline for real-time phishing URL detection — built with the same standards as a production microservice.
-
-```
-Accuracy      : 90% on 500+ samples
-Latency       : < 80ms p99
-Uptime        : 99.9% under load testing
-Architecture  : Stateless — horizontally scalable
-Database      : Partitioned PostgreSQL audit tables
-```
-
-Demonstrates async backend design, load-tested reliability, and scalable data architecture — not just a model wrapper.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot/PhishingCheck4U)
-
-</td>
-</tr>
 <tr>
 <td width="50%" valign="top">
 
 ### SecureHealth — Distributed Medical Records Platform
 `Flask` `REST APIs` `PostgreSQL` `AES-256-GCM` `RSA-2048` `GitHub Actions`
 
-A distributed backend system across 3 microservices with custom middleware, enforced access control, and automated integration testing.
+A distributed backend system across 3 microservices with custom middleware, enforced access control, and automated integration testing. Implements hybrid cryptography with server-side zero access to plaintext records.
 
 ```
 Architecture  : 3 microservices + custom middleware
@@ -150,54 +110,33 @@ Deployment    : CI/CD via GitHub Actions
 Data Safety   : Client-side encryption enforced end-to-end
 ```
 
-Built to demonstrate real microservice thinking — service boundaries, middleware layers, and infrastructure as code.
+The most architecturally complex project — real microservice boundaries, middleware layers, and infrastructure as code.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot/medical-data-decentralisation)
 
 </td>
 <td width="50%" valign="top">
 
-### VaultStream — Encrypted Media Storage & Retrieval
-`Python` `Flask` `Docker` `Cloud Storage` `REST API`
+### TaskFlow — Task Management REST API
+`Java` `Spring Boot` `PostgreSQL` `PL/SQL` `JUnit 5` `GitHub Actions`
 
-High-throughput file storage and retrieval system with a chunked streaming pipeline, Docker containerisation, and cloud-backed storage.
+Production-grade CRUD REST API with JWT-based authentication and layered Repository / Service / Controller architecture — built to the standard of a working engineering team.
 
 ```
-File Support  : Up to 500MB per upload
-Latency       : sub-100ms p99
-Test Coverage : 85%+ unit + integration tests
-Deployment    : Dockerized, cloud-backed
-Access Model  : Key-scoped per session
+Test Coverage : 80%+ across 15+ test suites
+CI/CD         : GitHub Actions (build → test → deploy)
+Database      : PostgreSQL + stored procedures (PL/SQL)
+Optimization  : Query tuning via execution plans + indexing
+Testing Stack : JUnit 5 + Mockito
 ```
 
-Focus was on chunked I/O performance, reliable error handling, and clean API design — security was a constraint, not the product.
+Clean OOP design, full separation of concerns, and a fully automated CI/CD pipeline.
 
-[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot/secure-media-encryption)
+[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot)
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### PassGuard — Password Strength Analyzer
-`JavaScript` `HTML` `CSS` `Entropy Analysis`
-
-Real-time browser-based password strength analyzer — evaluates entropy, detects keyboard walks, sequences and date patterns, checks against common wordlists with leet-speak normalization, flags username similarity, and estimates crack times.
-
-```
-Detection     : Keyboard walks, sequences, dates, leet-speak
-Wordlist      : Common password normalization + similarity
-Analysis      : Shannon entropy + pattern-weighted scoring
-Extra         : Built-in secure password generator
-Deployment    : Live on Vercel
-```
-
-All analysis runs client-side — no data ever leaves the browser.
-
-[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot/PassGuard)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://passguard-two.vercel.app)
-
-</td>
 <td width="50%" valign="top">
 
 ### VaultZero — Zero-Knowledge Password Manager
@@ -218,20 +157,83 @@ Designed around the principle that trust should never be required — only crypt
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot/VaultZero)
 
 </td>
+<td width="50%" valign="top">
+
+### PhishGuard — Real-Time Threat Detection API
+`Python` `Machine Learning` `PostgreSQL` `REST API` `CI/CD`
+
+Async ML inference pipeline for real-time phishing URL detection — built with the same standards as a production microservice.
+
+```
+Accuracy      : 90% on 500+ samples
+Latency       : < 80ms p99
+Uptime        : 99.9% under load testing
+Architecture  : Stateless — horizontally scalable
+Database      : Partitioned PostgreSQL audit tables
+```
+
+Demonstrates async backend design, load-tested reliability, and scalable data architecture.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot/PhishingCheck4U)
+
+</td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+### PassGuard — Password Strength Analyzer
+`JavaScript` `HTML` `CSS` `Entropy Analysis`
+
+Real-time browser-based password strength analyzer — evaluates entropy, detects keyboard walks, sequences and date patterns, checks against common wordlists with leet-speak normalization, and estimates crack times.
+
+```
+Detection     : Keyboard walks, sequences, dates, leet-speak
+Wordlist      : Common password normalization + similarity
+Analysis      : Shannon entropy + pattern-weighted scoring
+Extra         : Built-in secure password generator
+Deployment    : Live on Vercel
+```
+
+All analysis runs client-side — no data ever leaves the browser.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot/PassGuard)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://passguard-two.vercel.app)
+
+</td>
 <td width="50%" valign="top">
 
 ### E2E Encryption Attack Lab *(Research / Teaching)*
 `Python` `mitmproxy` `Flask` `Wireshark` `Burp Suite`
 
-A 3-act educational demonstration of MITM attacks on E2E encrypted communication — built as a research and teaching tool for a CyberPeace Foundation assignment.
+A 3-act educational demonstration of MITM attacks on E2E encrypted communication — built for a CyberPeace Foundation assignment. Features a live attacker dashboard and mitmproxy integration.
 
-Features a live attacker dashboard (Flask API + real-time feed) and mitmproxy integration. Core engineering challenges: multi-threaded TCP proxy design, cross-thread state synchronisation via `threading.Event`, and Flask embedded as a daemon background service.
+Core engineering challenges: multi-threaded TCP proxy design, cross-thread state synchronisation via `threading.Event`, and Flask embedded as a daemon background service.
 
 *Engineering relevance:* Threading bugs, race conditions, and concurrent state are core backend problems — this project forced me to solve all three under real constraints.
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot/E2E-Encryption-Attack-Lab)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### VaultStream — Encrypted Media Storage & Retrieval
+`Python` `Flask` `Docker` `Cloud Storage` `REST API`
+
+High-throughput file storage and retrieval system with a chunked streaming pipeline, Docker containerisation, and cloud-backed storage.
+
+```
+File Support  : Up to 500MB per upload
+Latency       : sub-100ms p99
+Test Coverage : 85%+ unit + integration tests
+Deployment    : Dockerized, cloud-backed
+Access Model  : Key-scoped per session
+```
+
+Focus: chunked I/O performance, reliable error handling, and clean API design.
+
+[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot/secure-media-encryption)
 
 </td>
 <td width="50%" valign="top">
@@ -267,6 +269,7 @@ Feature       : Auto-tracked daily learning timeline
 Design        : Modern cybersecurity aesthetic
 ```
 
+[![View Site](https://img.shields.io/badge/View_Site-00D9FF?style=flat-square&logo=vercel&logoColor=white)](https://github.com/Sanskar-bot/Sanskar_Phougat_Portfolio)
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot/Sanskar_Phougat_Portfolio)
 
 </td>
@@ -306,6 +309,15 @@ Not a highlight reel. A real engineering journal.
 
 ---
 
+## GitHub Achievements
+
+[![Quickdraw](https://img.shields.io/badge/Quickdraw-Achievement-FF9B00?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot?tab=achievements)
+[![YOLO](https://img.shields.io/badge/YOLO-Achievement-9B59B6?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot?tab=achievements)
+[![Pair Extraordinaire](https://img.shields.io/badge/Pair_Extraordinaire-Achievement-27AE60?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot?tab=achievements)
+[![Pull Shark](https://img.shields.io/badge/Pull_Shark-Achievement-2980B9?style=flat-square&logo=github&logoColor=white)](https://github.com/Sanskar-bot?tab=achievements)
+
+---
+
 ## Leadership
 
 ```
@@ -320,31 +332,15 @@ Mentoring  : Peers on OOP, backend engineering, SQL database design
 
 ---
 
-## GitHub Achievements
-
-<div align="center">
-
-<img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="80" title="Quickdraw" alt="Quickdraw Achievement"/>
-&nbsp;&nbsp;
-<img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="80" title="YOLO" alt="YOLO Achievement"/>
-&nbsp;&nbsp;
-<img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="80" title="Pair Extraordinaire" alt="Pair Extraordinaire Achievement"/>
-&nbsp;&nbsp;
-<img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="80" title="Pull Shark" alt="Pull Shark Achievement"/>
-
-</div>
-
----
-
 ## GitHub Stats
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sanskar-bot&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff&rank_icon=github)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sanskar-bot&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff)
-
 ![GitHub Streak](https://streak-stats.demolab.com?user=Sanskar-bot&theme=dark&hide_border=true&background=0d1117&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sanskar-bot&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff&rank_icon=github&cache_seconds=1800)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sanskar-bot&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff&cache_seconds=1800)
 
 </div>
 
